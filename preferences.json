@@ -1,0 +1,49 @@
+{
+    "Remote-path": {
+        "filepath": "/home/sdponmp/abc.log", 
+        "username": "sdponmp", 
+        "password": "sdponmp", 
+        "ip": "172.27.173.132"
+    }, 
+    "Valid-headers": {
+        "input": [
+            "file", 
+            "msg", 
+            "time", 
+            "func"
+        ], 
+        "sample": [
+            "Component_name", 
+            "Consumer-Name", 
+            "Instance_id", 
+            "bootstrap-server", 
+            "file", 
+            "func", 
+            "level", 
+            "msg", 
+            "time", 
+            "topics", 
+            "value", 
+            "user_msg", 
+            "Hdrs", 
+            "host", 
+            "Producer-Name"
+        ]
+    }, 
+    "Load-logs-from": {
+        "input": "window", 
+        "sample": "window/remote"
+    }, 
+    "Exclude-search": {
+        "input": "DEVMGR-KPI", 
+        "sample": "OnuRec/Empty val/Comma separated"
+    }, 
+    "Starts-with": {
+        "input": "", 
+        "sample": "OnuRec/Empty val"
+    }, 
+    "Only-with-pattern": {
+        "input": "", 
+        "sample": "OnuRec/Empty val/Comma separated"
+    }
+}

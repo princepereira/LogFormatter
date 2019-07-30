@@ -1,0 +1,49 @@
+{
+    "Remote-path": {
+        "ip": "192.168.170.131", 
+        "username": "", 
+        "password": "", 
+        "filepath": ""
+    }, 
+    "Starts-with": {
+        "sample": "OnuRec/Empty val", 
+        "input": ""
+    }, 
+    "Valid-headers": {
+        "sample": [
+            "Component_name", 
+            "Consumer-Name", 
+            "Instance_id", 
+            "bootstrap-server", 
+            "file", 
+            "func", 
+            "level", 
+            "msg", 
+            "time", 
+            "topics", 
+            "value", 
+            "user_msg", 
+            "Hdrs", 
+            "host", 
+            "Producer-Name"
+        ], 
+        "input": [
+            "Component_name", 
+            "user_msg", 
+            "time", 
+            "func"
+        ]
+    }, 
+    "Exclude-search": {
+        "sample": "OnuRec/Empty val/Comma separated", 
+        "input": "prince"
+    }, 
+    "Only-with-pattern": {
+        "sample": "OnuRec/Empty val/Comma separated", 
+        "input": "prince"
+    }, 
+    "Load-logs-from": {
+        "sample": "window/remote", 
+        "input": "window"
+    }
+}
